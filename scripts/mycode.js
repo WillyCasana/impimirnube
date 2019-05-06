@@ -10,6 +10,6 @@ function onPrint(){
     var gadget = new cloudprint.Gadget();
     gadget.setPrintDocument("url","test page");
     gadget.setPrintDocument("application/pdf","PDF Doc");
-    gadget.setPrintDocument("url","Test Page","docs/imprimir.pdf");
+    gadget.setPrintDocument("url","Test Page","https://willycasana.github.io/impimirnube/docs/imprimir.pdf");
     gadget.openPrintDialog();
 }
